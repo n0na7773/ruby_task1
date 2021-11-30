@@ -35,6 +35,9 @@ class InstallationReport
             <h4 style="display: flex; text-align: center; align-items:center; justify-content:center; font-weight: 500;">{SUBTITLE}</h4>
         </div>
     </div>
+    <div style="display:flex; flex-flow:column; width:60%">
+            <h2 style="display: flex; text-align: center; align-items:center; justify-content:center; font-weight: 500;">Installation Instructions</h1>
+    </div>
     <div style="margin-top:40px">{BODY}
     </div>
 </body>
