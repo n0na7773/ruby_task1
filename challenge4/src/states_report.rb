@@ -15,16 +15,16 @@ class StatesReport
 
         section > * {
             display: table-row;
-            border-bottom: 1px solid #ddd;
+            border-bottom: 1px dashed #ddd;
         }
 
         section .col {
             display: table-cell;
+            border-right: 1px dashed grey;
             padding: 8px;
         }
     </style>
-</head>'
-        template += '
+</head>
 <body style="padding: 1em">
     <div style="display:flex">
         <div style="background-size: contain; background-image: url(\'../images/ruby.png\'); 
@@ -33,8 +33,7 @@ class StatesReport
         <div style="width:40%">
             <h1 style="display: flex; align-items:center; justify-content:center; font-weight: 500;">States Report</h1>
         </div>
-    </div>'
-        template += '
+    </div>
     <div style="margin-top:40px">{BODY}
     </div>
 </body>

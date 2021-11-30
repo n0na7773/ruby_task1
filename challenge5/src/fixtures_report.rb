@@ -24,8 +24,7 @@ class FixturesReport
             padding: 8px;
         }
     </style>
-</head>'
-        template += '
+</head>
 <body style="padding: 1em">
     <div style="display:flex">
         <div style="background-size: contain; background-image: url(\'../images/ruby.png\'); 
@@ -34,8 +33,7 @@ class FixturesReport
         <div style="width:40%">
             <h1 style="display: flex; align-items:center; justify-content:center; font-weight: 500;">Fixtures Report</h1>
         </div>
-    </div>'
-        template += '
+    </div>
     <div style="margin-top:40px">{BODY}
     </div>
 </body>
