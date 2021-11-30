@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    csv (3.2.1)
+    pg (1.2.3)
+    quickchart (1.2.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  csv
+  pg
+  quickchart
+
+BUNDLED WITH
+   2.2.22
